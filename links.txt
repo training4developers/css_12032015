@@ -1,1 +1,35 @@
+CSS Specs
+
 http://www.w3.org/Style/CSS/specs.en.html
+
+CSS Selectors Reference
+
+http://www.w3schools.com/cssref/css_selectors.asp
+
+FlexBox
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+CSS Image Sprites
+
+http://www.spritecow.com/
+
+Base64 Image Encoder
+
+https://www.base64-image.de/
+
+Interactive Box Model
+
+http://codepen.io/carolineartz/full/ogVXZj
+
+CSS Diner Selector Game
+
+http://flukeout.github.io/
+
+Another CSS Selector Game
+
+http://toolness.github.io/css-selector-game/
+
+CSS Animations
+
+http://learn.shayhowe.com/advanced-html-css/transitions-animations/
