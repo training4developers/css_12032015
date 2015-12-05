@@ -25,22 +25,39 @@
 			clear:both;
 		}
 
-		.col-3, .col-9, .col-12 {
-			box-sizing:border-box;
-			float:left;
-			border:2px solid blue;
+		@media only screen and (min-width:500px) {
+
+			.col-d-3, .col-d-9, .col-d-12 {
+				box-sizing:border-box;
+				float:left;
+				border:2px solid blue;
+			}
+
+			.col-d-12 {
+				width:100%;
+			}
+
+			.col-d-3 {
+				width:25%;
+			}
+
+			.col-d-9 {
+				width:75%;
+			}
+
 		}
 
-		.col-12 {
-			width:100%;
-		}
+		@media only screen and (max-width:499px) {
 
-		.col-3 {
-			width:25%;
-		}
+			.col-m-12 {
+				box-sizing:border-box;
+				float:left;
+				border:2px solid blue;
+			}
 
-		.col-9 {
-			width:75%;
+			.col-m-12 {
+				width:100%;
+			}
 		}
 
 	</style>
@@ -49,12 +66,12 @@
 <body>
 	<div class="container">
 		<header class="row">
-			<div class="col-12">
+			<div class="col-d-12 col-m-12">
 				<h1><img src="kyle.png">Kyle's Profile Page</h1>
 			</div>
 		</header>
 		<nav class="row" id="main-menu">
-			<div class="col-12">
+			<div class="col-d-12 col-m-12">
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Bio</a></li>
@@ -64,7 +81,7 @@
 			</div>
 		</nav>
 		<main>
-			<div class="col-9">
+			<div class="col-d-9 col-m-12">
 				<h2>Biography</h2>
 				<p>
 					<span class="person-name" style="text-decoration:underline;">Kyle</span> is from Washington State, and lived in California before
@@ -83,12 +100,12 @@
 					<li id="item-3">On moon lit nights, he loves long walks on the beach.</li>
 				</ul>
 			</div>
-			<aside class="col-3">
+			<aside class="col-d-3 col-m-12">
 				Content to go here...
 			</aside>
 		</main>
 		<footer class="row">
-			<div class="col-12">
+			<div class="col-d-12 col-m-12">
 				&copy; 2015 Kyle Rocks, Inc.
 			</div>
 		</footer>
